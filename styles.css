@@ -1,42 +1,59 @@
+/* Elements */
 nav {
     display: flex;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
     background-color: #3882f6;
 }
 
-#navigation {
-    display: flex;
+/* Shared Styles */
+#hero, header, footer {
+    background-color: #1F2937;
+}
+
+#hero p, #navigation a, footer p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Navigation */
+#navigation li {
+    display: inline-block;
     list-style-type: none;
 }
 
+/* Header */
 #logo {
     font-size: 24px;
     color: #f9faf8;
 }
 
-#hero {
-    background-color: #1F2937;
-}
-
+/* Hero */
 #hero > h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
 
-#hero > p, #navigation {
-    font-size: 18px;
-    color: #e5e7eb;
-}
 
+/* Facts */
 #facts > h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
 }
 
+#facts li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* Quotes */
 #quotes {
     background-color: #e5e7eb;
 }
@@ -46,3 +63,7 @@ button {
     font-style: italic;
     font-size: 36px;
 }
+
+/* CTA */
+
+/* Footer */
