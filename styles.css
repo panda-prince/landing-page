@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+#navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#hero {
+    background-color: #1F2937;
+}
+
+#hero > h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+#hero > p, #navigation {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#facts > h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+#quotes {
+    background-color: #e5e7eb;
+}
+
+#quote {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
