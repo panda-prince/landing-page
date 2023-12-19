@@ -1,3 +1,9 @@
+/* Style Resets */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Elements */
 nav {
     display: flex;
