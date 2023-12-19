@@ -9,7 +9,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 4rem;
+    margin: 0px 8rem;
 }
 
 a {
@@ -18,6 +18,20 @@ a {
 
 button {
     background-color: #3882f6;
+}
+
+section {
+    padding: 4rem 8rem;
+}
+
+/* Classes */
+.flex {
+    display: flex;
+}
+
+.hero-container {
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Shared Styles */
@@ -38,7 +52,7 @@ button {
 #navigation li {
     display: inline-block;
     list-style-type: none;
-    padding: 0.5rem 1rem;
+    padding: 1.5rem;
     margin: 0px 0.5rem;
 }
 
@@ -55,6 +69,11 @@ button {
     font-weight: bolder;
 }
 
+#hero-image {
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+}
 
 /* Facts */
 #facts h2 {
