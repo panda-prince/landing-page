@@ -1,5 +1,5 @@
 /* Style Resets */
-* {
+*, *::after, *::before {
     margin: 0px;
     padding: 0px;
 }
@@ -40,7 +40,7 @@ button {
 }
 
 /* Hero */
-#hero > h1 {
+#hero h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
@@ -48,7 +48,7 @@ button {
 
 
 /* Facts */
-#facts > h2 {
+#facts h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
