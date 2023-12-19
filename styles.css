@@ -7,6 +7,9 @@
 /* Elements */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 4rem;
 }
 
 a {
@@ -28,9 +31,15 @@ button {
 }
 
 /* Navigation */
+#navigation {
+
+}
+
 #navigation li {
     display: inline-block;
     list-style-type: none;
+    padding: 0.5rem 1rem;
+    margin: 0px 0.5rem;
 }
 
 /* Header */
