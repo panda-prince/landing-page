@@ -11,13 +11,6 @@ body {
     font-family: sans-serif;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 8rem;
-}
-
 a {
     text-decoration: none;
 }
@@ -37,7 +30,7 @@ header {
 }
 
 section {
-    padding: 8rem;
+    padding: 6rem;
 }
 
 /* Classes */
@@ -75,6 +68,13 @@ section {
 }
 
 /* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 8rem;
+}
+
 #navigation {
     margin-right: -1.5rem;
 }
