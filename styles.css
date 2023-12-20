@@ -116,10 +116,11 @@ nav {
 
 .hero-container > div:first-child {
     margin-right: 2.5rem;
+    width: 100%;
 }
 
 #hero-image {
-    
+    width: 100%;
 }
 
 /* Facts */
