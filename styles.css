@@ -74,10 +74,6 @@ section {
 }
 
 /* Navigation */
-#navigation {
-
-}
-
 #navigation li {
     display: inline-block;
     list-style-type: none;
@@ -165,3 +161,11 @@ section {
 }
 
 /* Footer */
+footer {
+    padding: 1.5rem;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0;
+}
