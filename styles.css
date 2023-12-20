@@ -37,7 +37,7 @@ header {
 }
 
 section {
-    padding: 4rem 8rem;
+    padding: 8rem;
 }
 
 /* Classes */
@@ -60,6 +60,11 @@ section {
     display: inline-block;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 /* Shared Styles */
 #hero, header, footer {
     background-color: #1F2937;
@@ -70,11 +75,18 @@ section {
 }
 
 /* Navigation */
+#navigation {
+    margin-right: -1.5rem;
+}
+
 #navigation li {
     display: inline-block;
     list-style-type: none;
+}
+
+#navigation li a {
+    display: inline-block;
     padding: 1rem 1.5rem;
-    margin: 0px 0.5rem;
 }
 
 /* Header */
@@ -131,7 +143,6 @@ section {
 
 #facts-list li div {
     max-width: 150px;
-    min-width: 90px;
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 0.5rem;
@@ -142,10 +153,6 @@ section {
 /* Quotes */
 #quotes {
     background-color: #e5e7eb;
-}
-
-#quotes > div {
-    margin: 0rem 1rem;
 }
 
 #quote {
@@ -165,13 +172,17 @@ section {
 /* CTA */
 
 #cta-container {
-    padding: 2.5rem 4rem;
+    padding: 3rem 4rem;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#cta-container > div {
+    margin-right: 1rem;
 }
 
 #cta button {
