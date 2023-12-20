@@ -18,14 +18,6 @@ nav {
     margin: 0px 8rem;
 }
 
-h1, p {
-    margin-bottom: 1rem;
-}
-
-a, p {
-    font-size: 18px;
-}
-
 a {
     text-decoration: none;
 }
@@ -34,14 +26,8 @@ button {
     background-color: transparent;
 }
 
-.button {
-    background-color: #3882f6;
-    font-weight: bold;
-    color: white;
-    padding: 0.5rem 2rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    display: inline-block;
+h4 {
+    font-size: 18px;
 }
 
 header {
@@ -62,6 +48,16 @@ section {
 .hero-container {
     align-items: center;
     justify-content: space-between;
+}
+
+.button {
+    background-color: #3882f6;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: inline-block;
 }
 
 /* Shared Styles */
@@ -94,6 +90,12 @@ section {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 1rem;
 }
 
 .hero-container > div:first-child {
@@ -123,7 +125,7 @@ section {
     display: inline-block;
     list-style-type: none;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     margin: 1rem;
 }
 
@@ -142,10 +144,16 @@ section {
     background-color: #e5e7eb;
 }
 
+#quotes > div {
+    margin: 0rem 1rem;
+}
+
 #quote {
     color: #1f2937;
     font-style: italic;
+    font-weight: lighter;
     font-size: 36px;
+    margin-bottom: 2rem;
 }
 
 #tagline {
@@ -156,8 +164,23 @@ section {
 
 /* CTA */
 
+#cta-container {
+    padding: 2.5rem 4rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #cta button {
-    border-color: white;
+    border: 2px solid #f9faf8;
+    border-radius: 0.5rem;
+}
+
+#cta p {
+    margin-bottom: 0px;
 }
 
 /* Footer */
@@ -168,4 +191,5 @@ footer {
 footer p {
     text-align: center;
     margin-bottom: 0;
+    font-size: 0.75rem;
 }
